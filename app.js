@@ -80,7 +80,7 @@ function checkAnswer(selected) {
   if (index < questions.length) {
     showQuestion();
   } else {
-    document.getElementById("question").innerText = "Quiz Finished 🎉";
+    document.getElementById("question").innerText = "Quiz Finished";
     document.getElementById("answers").innerHTML = "";
     document.getElementById("result").innerText =
       "Your total score is: " + score + " / 100";
